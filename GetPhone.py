@@ -4,7 +4,7 @@ import urllib2
 import re
 import sys
 
-response = urllib2.urlopen('http://10.9.16.15/phone_dumps/all.txt')
+response = urllib2.urlopen('http://IP_ADDRESS/phone_dumps/all.txt')
 
 for line in response:
 	if "Oliver Gross" in line:
