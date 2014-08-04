@@ -1,5 +1,5 @@
 import requests
-URL = 'http://10.9.16.15/phone_dumps/all.txt'
+URL = 'http://IP_ADDRESS/phone_dumps/all.txt'
 
 response  = requests.get(URL)
 raw_data = response.text
