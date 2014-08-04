@@ -12,7 +12,7 @@ for line in response:
 
 olilist = olidata.split("\t")
 
-if olilist[5] != "AVIL":
+if olilist[5] != "AVAIL":
 	print "GET ON THE PHONE DUMASS"
 else:
 	print "Nice work, doofus."
